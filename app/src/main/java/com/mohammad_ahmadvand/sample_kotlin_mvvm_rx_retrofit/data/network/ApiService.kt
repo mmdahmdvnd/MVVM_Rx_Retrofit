@@ -1,4 +1,4 @@
-package com.mohammad_ahmadvand.sample_kotlin_mvvm_rx_retrofit.data.network
+package com.mohammad_ahmadvand.sample_kotlin_mvvm_rx_retrofit
 
 import com.mohammad_ahmadvand.sample_kotlin_mvvm_rx_retrofit.data.model.User
 import io.reactivex.rxjava3.core.Single

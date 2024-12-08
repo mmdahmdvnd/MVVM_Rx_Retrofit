@@ -9,8 +9,8 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
 
-class UserViewModel : ViewModel() {
-    private val repository = UserRepository()
+class UserViewModel(private val repository: UserRepository) : ViewModel() {
+
     private val compositeDisposable = CompositeDisposable()
 
     private val _user = MutableLiveData<User>()
